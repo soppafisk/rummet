@@ -6,7 +6,7 @@ $(document).ready(function() {
   // ws.send('hej//klienten');
   var name;
   ws.onopen = function() {
-    name = prompt("vad heter du?");
+    name = "jens";//prompt("vad heter du?");
   }
 
   ws.onmessage = function(event) {
